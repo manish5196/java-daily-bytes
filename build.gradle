@@ -26,6 +26,11 @@ compileTestJava {
 }
 
 dependencies {
+
+    compile("com.fasterxml.jackson.core:jackson-core:${jacksonVersion}")
+    compile("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
+    compile("com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}")
+
     testCompile("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
     testCompile("org.hamcrest:hamcrest-core:${hamcrestVersion}")
 }
