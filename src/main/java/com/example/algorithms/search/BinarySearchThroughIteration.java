@@ -1,4 +1,4 @@
-package com.example.algorithms;
+package com.example.algorithms.search;
 
 public class BinarySearchThroughIteration {
     public boolean search(int [] elements, int key) {

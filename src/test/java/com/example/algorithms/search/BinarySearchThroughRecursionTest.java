@@ -1,4 +1,4 @@
-package com.example.algorithms;
+package com.example.algorithms.search;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -30,7 +30,29 @@ dependencies {
     compile("com.fasterxml.jackson.core:jackson-core:${jacksonVersion}")
     compile("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
     compile("com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}")
+    compile("com.itextpdf:itextpdf:${itextpdfVersion}")
+    compile("com.itextpdf.tool:xmlworker:${itextpdfVersion}")
+    compile("org.jsoup:jsoup:${jSoupVersion}")
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
 
     testCompile("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
     testCompile("org.hamcrest:hamcrest-core:${hamcrestVersion}")
+
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    compile group: 'com.google.guava', name: 'guava', version: '29.0-jre'
+
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.20.Final'
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+
+
+
+
+
 }
